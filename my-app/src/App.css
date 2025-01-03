@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-brand{
+  padding:16px;
+  font-family: "Helvetica", san-serif;
+  font-size: 12px;
+}
+
+.navbar-brand .align-text-top {
+  margin-right: 10px; /* Adjust the margin value as needed */
+}
+
+.Home {
+  
+}
+
+.About {
+  
+}
+
+.Logo30 {
+  margin-bottom: 30px;
+  
+}
+
+.Listings {
+  
+}
+
+.FirstDiv {
+  
+}
+
+.Top {
+  color: white;
+  background-color: orangered;
+  padding-top:80px;
+  padding-bottom:130px;
+  z-index: 1;
+}
+
+.Middle {
+  color: white;
+  background: linear-gradient(to bottom, orangered, #ff9900);
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.ThirdMiddle {
+
+  color: white;
+  background-color: #ff9900;
+  padding-top:200px;
+  padding-bottom:50px;
+}
+
+.FourthMiddle {
+  color: white;
+  background: linear-gradient(to bottom, #ff9900, #f7e307);
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.FifthMiddle {
+  color: white;
+  background-color: #f7e307;
+  padding-top:150px;
+  padding-bottom:200px;
+}
+
+.SixthMiddle {
+  color: white;
+  background: linear-gradient(to bottom, #f7e307, darkslategray);
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.SeventhMiddle {
+  color: white;
+  background-color: darkslategray;
+  padding-top:200px;
+  padding-bottom:200px;
+}
+
+.Bottom {
+  color: white;
+  background-color: black;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.bgTitle {
+  width: 125%;
+  position: relative;
+  right: 15%;
+  bottom: 25%;
+  z-index: 0;
+}
+
+.Home-settings
+ {
+  padding-left: 100px;
+}
+
+p {
+  padding-top: 0%;
+  font-size: 115%;
+}
+
+.Sign-up {
+  padding-top: 30%;
+  width: 10%;
+}
+
+.sign-up-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.SignUp-Btn {
+  padding-top: 1%;
+  
+}
+
+.Title1 {
+}
+
+.top-heading {
+  font-weight: bold;
+}
+
+.second-heading-one {
+  text-align: left;
+}
+
+.second-heading-two {
+  text-align: left;
+}
+
+.second-heading-three {
+  text-align: left;
+}
+
+.Second-heading {
+  padding-bottom: 2%;
+}
